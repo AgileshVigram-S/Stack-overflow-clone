@@ -41,8 +41,8 @@ mongoose
 // Middleware
 // app.use(cors());
 app.use(cors({
-  origin: "https://stack-overflow-clone-front-umber.vercel.app/", // ✅ Allow only your frontend URL
-  methods: ["GET", "POST"],
+  origin: "http://localhost:3000", // ✅ Allow only your frontend URL
+  methods:["POST","GET"],
   credentials: true, // ✅ Allow credentials (cookies, authorization headers, etc.)
 }));
 app.use(bodyParser.json());
