@@ -23,7 +23,7 @@ const server = http.createServer(app); // Create an HTTP server
 //const io = socketIo(server, { cors: { origin: "*" } }); // Pass server to Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Frontend URL
+    origin: "https://stack-overflow-clone-kpa7.vercel.app/", // Frontend URL
     methods: ["GET", "POST"],
   },
 });
@@ -41,7 +41,7 @@ mongoose
 // Middleware
 // app.use(cors());
 app.use(cors({
-  origin: "http://localhost:3000", // ✅ Allow only your frontend URL
+  origin: "https://stack-overflow-clone-kpa7.vercel.app/", // ✅ Allow only your frontend URL
   methods:["POST","GET"],
   credentials: true, // ✅ Allow credentials (cookies, authorization headers, etc.)
 }));
