@@ -11,7 +11,7 @@ const QuestionList = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/questions');
+        const response = await fetch('https://stack-overflow-clone-kpa7.vercel.app/api/questions');
         if (response.ok) {
           const data = await response.json();
           setQuestions(data);
