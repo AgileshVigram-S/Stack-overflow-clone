@@ -22,7 +22,7 @@ const QuestionDetail = () => {
 
     const fetchQuestion = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/questions/${id_no}`);
+        const response = await fetch(`https://stack-overflow-clone-guxa.onrender.com/api/questions/${id_no}`);
         if (response.ok) {
           const data = await response.json();
           setQuestion(data);
@@ -43,7 +43,7 @@ const QuestionDetail = () => {
   const handleAnswerSubmit = async () => {
     if (newAnswer.trim()) {
       try {
-        const response = await fetch(`http://localhost:5000/api/questions/${id_no}/answers`, {
+        const response = await fetch(`https://stack-overflow-clone-guxa.onrender.com/api/questions/${id_no}/answers`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
