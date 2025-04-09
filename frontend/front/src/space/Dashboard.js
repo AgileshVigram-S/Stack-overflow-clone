@@ -25,13 +25,13 @@ const Dashboard = () => {
     const fetchUsersAndCurrentUser = async () => {
       try {
         const usersResponse = await axios.get(
-          "http://localhost:5000/api/users1",
+          "https://stack-overflow-clone-guxa.onrender.com/api/users1",
           { headers: { Authorization: `Bearer ${token}` } }
         );
         setUsers(usersResponse.data);
 
         const currentUserResponse = await axios.get(
-          "http://localhost:5000/api/auth1/me",
+          "https://stack-overflow-clone-guxa.onrender.com/api/auth1/me",
           { headers: { Authorization: `Bearer ${token}` } }
         );
         setCurrentUserId(currentUserResponse.data._id);
@@ -51,7 +51,7 @@ const Dashboard = () => {
       setFollowing((prevFollowing) => [...prevFollowing, userId]); // Optimistic UI
 
       const response = await axios.post(
-        "http://localhost:5000/api/follow",
+        "https://stack-overflow-clone-guxa.onrender.com/api/follow",
         { userId },
         { headers: { Authorization: `Bearer ${token}` } }
       );
