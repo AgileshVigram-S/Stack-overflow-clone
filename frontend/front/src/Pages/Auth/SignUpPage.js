@@ -21,7 +21,7 @@ function SignUpPage() {
         e.preventDefault();
         try {
             // Use the correct endpoint for sign-up
-            const response = await axios.post('http://localhost:5000/api/auth/signup', formData);
+            const response = await axios.post('https://stack-overflow-clone-guxa.onrender.com/api/auth/signup', formData);
             alert(response.data.message); // Success message from the backend
         } catch (err) {
             // Handle errors gracefully
