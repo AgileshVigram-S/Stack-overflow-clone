@@ -30,7 +30,7 @@ const AuthPage = ({ isLogin }) => {
 
     try {
       setLoading(true);
-      const url = isLogin ? "http://localhost:5000/api/auth/login" : "http://localhost:5000/api/auth1/signup";
+      const url = isLogin ? "https://stack-overflow-clone-guxa.onrender.com/api/auth/login" : "https://stack-overflow-clone-guxa.onrender.com/api/auth1/signup";
       
       const response = await axios.post(url, formData);
 
