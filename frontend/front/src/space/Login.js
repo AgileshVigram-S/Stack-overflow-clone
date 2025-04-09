@@ -21,7 +21,7 @@ const AuthPage = ({ isLogin }) => {
     }
 
     try {
-      const url = isLogin ? "http://localhost:5000/api/login" : "http://localhost:5000/api/signup";
+      const url = isLogin ? "https://stack-overflow-clone-guxa.onrender.com/api/login" : "https://stack-overflow-clone-guxa.onrender.com/api/signup";
       const response = await axios.post(url, formData);
       localStorage.setItem("token", response.data.token);
       navigate("/dashboard");
