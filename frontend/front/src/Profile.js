@@ -10,7 +10,7 @@ const Profile = () => {
     const fetchNotificationStatus = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:5000/api/user/notifications?userId=${userId}`
+          `https://stack-overflow-clone-guxa.onrender.com/api/user/notifications?userId=${userId}`
         );
         setNotificationsEnabled(data.enabled);
       } catch (error) {
@@ -25,7 +25,7 @@ const Profile = () => {
         if (!permissionGranted && !notificationsEnabled) return;
     
         const { data } = await axios.post(
-          "http://localhost:5000/api/user/notifications",
+          "https://stack-overflow-clone-guxa.onrender.com/api/user/notifications",
           {
             userId,
             enabled: !notificationsEnabled,
