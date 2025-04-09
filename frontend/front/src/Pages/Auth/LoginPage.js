@@ -113,7 +113,7 @@ function LoginPage() {
     }
 
     try {
-      const { data } = await axios.post("http://localhost:5000/api/auth/google", {
+      const { data } = await axios.post("https://stack-overflow-clone-guxa.onrender.com/api/auth/google", {
         token: token, // Send the correct token
       });
 
