@@ -28,7 +28,7 @@ function LoginPage() {
         e.preventDefault();
         setError(null);
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+            const response = await axios.post('https://stack-overflow-clone-jade.vercel.app/api/auth/login', formData);
             alert(response.data.message);
             navigate('/dashboard/home');
         } catch (err) {
@@ -113,7 +113,7 @@ function LoginPage() {
     }
 
     try {
-      const { data } = await axios.post("http://localhost:5000/api/auth/google", {
+      const { data } = await axios.post("https://stack-overflow-clone-jade.vercel.app/api/auth/google", {
         token: token, // Send the correct token
       });
 
