@@ -14,7 +14,7 @@ console.log("Received ID from params:", id);
 
     useEffect(() => {
         
-        fetch(`http://localhost:5000/questions1`)
+        fetch(`https://stack-overflow-clone-guxa.onrender.com/questions1`)
             .then(res => res.json())
             .then(data => {
                 console.log('Fetched data:', data); // ✅ Optional: log all questions
@@ -25,7 +25,7 @@ console.log("Received ID from params:", id);
     }, [id]);
 
     const answerQuestion = () => {
-        fetch('http://localhost:5000/answer-question1', {
+        fetch('https://stack-overflow-clone-guxa.onrender.com/answer-question1', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ questionId: id, text: answerText })
