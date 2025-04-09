@@ -52,7 +52,7 @@ const AccountSettings = () => {
   const [history, setHistory] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/user/login-history", {
+    axios.get("https://stack-overflow-clone-guxa.onrender.com/api/user/login-history", {
       withCredentials: true, // ✅ Important for authentication
     })
     .then((response) => {
