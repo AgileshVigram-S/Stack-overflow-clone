@@ -28,7 +28,7 @@ function LoginPage() {
         e.preventDefault();
         setError(null);
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+            const response = await axios.post('https://stack-overflow-clone-guxa.onrender.com/api/auth/login', formData);
             alert(response.data.message);
             navigate('/dashboard/home');
         } catch (err) {
