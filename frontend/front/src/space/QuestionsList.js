@@ -9,13 +9,13 @@ const QuestionsList = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('http://localhost:5000/questions1')
+        fetch('https://stack-overflow-clone-guxa.onrender.com/questions1')
             .then(res => res.json())
             .then(data => setQuestions(data));
     }, []);
 
     const askQuestion = () => {
-        fetch('http://localhost:5000/ask-question1', {
+        fetch('https://stack-overflow-clone-guxa.onrender.com/ask-question1', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ text, videoUrl })
