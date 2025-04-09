@@ -42,6 +42,7 @@ mongoose
 // app.use(cors());
 app.use(cors({
   origin: "http://localhost:3000", // ✅ Allow only your frontend URL
+  methods: ["GET", "POST"],
   credentials: true, // ✅ Allow credentials (cookies, authorization headers, etc.)
 }));
 app.use(bodyParser.json());
