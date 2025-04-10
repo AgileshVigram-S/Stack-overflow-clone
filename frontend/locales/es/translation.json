@@ -1,0 +1,41 @@
+{
+    "Welcome_back": "Bienvenue, {{name}}",
+    "find_answers": "Trouvez des réponses à vos questions techniques et aidez les autres à répondre aux leurs.",
+    "ask_question": "Poser une question",
+  "question_list_title": "Todas las preguntas",
+  "votes": "votos",
+  "answers": "respuestas",
+  "views": "vistas",
+  "anonymous": "Anónimo",
+  "unknown_time": "Hora desconocida",
+  "Newest_questions": "Preguntas más recientes",
+  "askQuestion": "Haz una pregunta pública",
+  "writingGuide": {
+    "title": "Escribiendo una buena pregunta",
+    "intro": "Estás listo para hacer una pregunta sobre programación, y este formulario te ayudará.",
+    "nonProgramLink": "¿Buscas hacer una pregunta no relacionada con programación? Mira los temas aquí.",
+    "stepsTitle": "Pasos",
+    "steps": [
+      "Resume tu problema en un título de una línea.",
+      "Describe tu problema con más detalle.",
+      "Explica lo que intentaste y lo que esperabas.",
+      "Agrega etiquetas para ayudar a otros a encontrar tu pregunta.",
+      "Revisa tu pregunta y envíala."
+    ]
+  },
+  "form": {
+    "titleLabel": "Título",
+    "titleHint": "p.ej., ¿Cómo soluciono este error de React?",
+    "detailsLabel": "¿Cuáles son los detalles de tu problema?",
+    "attemptsLabel": "¿Qué intentaste y qué esperabas?",
+    "tagsLabel": "Etiquetas",
+    "tagsHint": "p.ej., react, javascript, html",
+    "submitBtn": "Enviar tu pregunta",
+    "discardBtn": "Descartar borrador"
+  },
+  "alerts": {
+    "success": "¡Pregunta enviada con éxito!",
+    "failure": "Error al enviar la pregunta.",
+    "error": "Ocurrió un error. Inténtalo de nuevo más tarde."
+  }
+}

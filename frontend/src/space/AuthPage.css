@@ -1,0 +1,106 @@
+AuthPage.css
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.auth-box {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box input {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.auth-box input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.auth-box button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-box button:hover {
+  background-color: #0056b3;
+}
+
+.error-text {
+  color: #ff4d4f;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.success-text {
+  color: #52c41a;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.text-gray-400 {
+  color: #6b7280;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-blue-400 {
+  color: #60a5fa;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-blue-400:hover {
+  text-decoration: underline;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}

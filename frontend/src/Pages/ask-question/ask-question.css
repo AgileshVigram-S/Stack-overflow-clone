@@ -1,0 +1,137 @@
+/* AskQuestion.css */
+
+.ask-question-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .guide {
+    background: #eef6fb;
+    border: 1px solid #dbe9f2;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .guide h2 {
+    font-size: 20px;
+    color: #2c5877;
+  }
+  
+  .guide p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .steps h3 {
+    font-size: 16px;
+    color: #2c5877;
+    margin-top: 10px;
+  }
+  
+  .steps ul {
+    padding-left: 20px;
+  }
+  
+  .steps li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .question-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #0074cc;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .error {
+    font-size: 12px;
+    color: red;
+  }
+  
+  .duplicate-check h3 {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .duplicate-check p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .no-duplicates {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background: #0074cc;
+    color: #fff;
+  }
+  
+  .btn.secondary {
+    background: #e4e4e4;
+    color: #333;
+  }
+  

@@ -1,0 +1,59 @@
+{
+  "Welcome_back": "Welcome back, {{name}}",
+  "find_answers": "Find answers to your technical questions and help others.",
+  "ask_question": "Ask Question",
+  "about": "About",
+  "products": "Products",
+  "for_teams": "For Teams",
+  "login": "Log In",
+  "search_placeholder": "Search...",
+  "question_list_title": "All Questions",
+  "votes": "votes",
+  "answers": "answers",
+  "views": "views",
+  "anonymous": "Anonymous",
+  "unknown_time": "Unknown time",
+  "Newest_questions": "Newest Questions",
+  "questions": {
+    "title": "All Questions",
+    "votes": "votes",
+    "answers": "answers",
+    "views": "views",
+    "anonymous": "Anonymous",
+    "unknownTime": "Unknown time"
+  },
+  "error": {
+    "fetchFail": "Failed to fetch questions from backend",
+    "fetchError": "Error fetching questions:"
+  },
+  "askQuestion": "Ask a public question",
+  "writingGuide": {
+    "title": "Writing a good question",
+    "intro": "You're ready to ask a programming-related question, and this form will guide you through the process.",
+    "nonProgramLink": "Looking to ask a non-programming question? See the topics here.",
+    "stepsTitle": "Steps",
+    "steps": [
+      "Summarize your problem in a one-line title.",
+      "Describe your problem in more detail.",
+      "Describe what you tried and what you expected to happen.",
+      "Add tags to help others find your question.",
+      "Review your question and submit it."
+    ]
+  },
+  "form": {
+    "titleLabel": "Title",
+    "titleHint": "e.g., How do I fix this React error?",
+    "detailsLabel": "What are the details of your problem?",
+    "attemptsLabel": "What did you try and what were you expecting?",
+    "tagsLabel": "Tags",
+    "tagsHint": "e.g., react, javascript, html",
+    "submitBtn": "Submit your question",
+    "discardBtn": "Discard draft"
+  },
+  "alerts": {
+    "success": "Question submitted successfully!",
+    "failure": "Failed to submit the question.",
+    "error": "An error occurred. Please try again later."
+  }
+  
+}
